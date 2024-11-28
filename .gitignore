@@ -9,7 +9,17 @@ dist/
 build/
 
 # Ignore environment variables
+env/
+*.pyc
+__pycache__/
 .env
+
+# Archivos de compilación temporal
+*.tmp
+*.cache
+
+# Archivos de respaldo o configuraciones locales
+*.sql
 
 # Ignore OS generated files
 .DS_Store
